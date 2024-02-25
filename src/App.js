@@ -3,6 +3,8 @@ import axios from 'axios';
 
 function App() {
 
+  document.title = 'Weather App';
+
   const[data, setData] = useState({})
   const[location, setLocation] = useState('')
   const [showPlaceholder, setShowPlaceholder] = useState(true)
